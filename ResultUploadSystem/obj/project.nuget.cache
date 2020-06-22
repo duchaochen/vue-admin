@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m9OezXdB6owEzcosttizumx0rOV2F0HwJtcOZ4G3Tndi339V7Z+x9dbIg5B5PCCgvmx5F/Gwee6dhxZWtArbvw==",
+  "dgSpecHash": "rrPGFIdoR7dah4V7jjIIeN2+ip8F6kpq8ktnYW4+oP+bCERBAfk/UMmfh/EtZMHPSac02FJeIlIhUuTuJk96cw==",
   "success": true,
-  "projectFilePath": "D:\\NET\\net-core\\ResultUploadSystem\\ResultUploadSystem.csproj",
+  "projectFilePath": "D:\\视频\\code\\vue-admin\\ResultUploadSystem\\ResultUploadSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dcc\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\dcc\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

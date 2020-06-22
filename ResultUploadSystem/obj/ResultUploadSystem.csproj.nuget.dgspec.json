@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NET\\net-core\\ResultUploadSystem\\ResultUploadSystem.csproj": {}
+    "D:\\视频\\code\\vue-admin\\ResultUploadSystem\\ResultUploadSystem.csproj": {}
   },
   "projects": {
-    "D:\\NET\\net-core\\ResultUploadSystem\\ResultUploadSystem.csproj": {
+    "D:\\视频\\code\\vue-admin\\ResultUploadSystem\\ResultUploadSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET\\net-core\\ResultUploadSystem\\ResultUploadSystem.csproj",
+        "projectUniqueName": "D:\\视频\\code\\vue-admin\\ResultUploadSystem\\ResultUploadSystem.csproj",
         "projectName": "ResultUploadSystem",
-        "projectPath": "D:\\NET\\net-core\\ResultUploadSystem\\ResultUploadSystem.csproj",
+        "projectPath": "D:\\视频\\code\\vue-admin\\ResultUploadSystem\\ResultUploadSystem.csproj",
         "packagesPath": "C:\\Users\\dcc\\.nuget\\packages\\",
-        "outputPath": "D:\\NET\\net-core\\ResultUploadSystem\\obj\\",
+        "outputPath": "D:\\视频\\code\\vue-admin\\ResultUploadSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
