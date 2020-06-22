@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ResultUploadSystem.Models.Result>
+
+@{
+    ViewData["Title"] = "Index";
+    int startPageIndex = ViewBag.startPageIndex;
+    int endPageIndex = ViewBag.endPageIndex;
+    int PageSize = 2;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Add">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StuName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discrption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Create)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discrption)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Create)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type.Name)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@for (int i = startPageIndex; i <= endPageIndex; i++)
+{
+    <a href="/Result/Index?PageIndex=@i&PageSize=@PageSize" style="display:inherit;float:left;width:30px;height:30px;">@i</a>
+}

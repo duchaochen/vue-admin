@@ -1,0 +1,5 @@
+D:\NET\net-core\ResultUploadSystem\obj\Debug\netcoreapp3.1\ResultUploadSystem.csprojAssemblyReference.cache
+D:\NET\net-core\ResultUploadSystem\obj\Debug\netcoreapp3.1\ResultUploadSystem.AssemblyInfoInputs.cache
+D:\NET\net-core\ResultUploadSystem\obj\Debug\netcoreapp3.1\ResultUploadSystem.AssemblyInfo.cs
+D:\NET\net-core\ResultUploadSystem\obj\Debug\netcoreapp3.1\ResultUploadSystem.TagHelpers.input.cache
+D:\NET\net-core\ResultUploadSystem\obj\Debug\netcoreapp3.1\ResultUploadSystem.TagHelpers.output.cache
